@@ -5,6 +5,7 @@ const request = require('request')
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 
+
 console.log(__dirname)
 console.log(__filename)
 console.log(path.join(__dirname, '../public'))
